@@ -1,0 +1,11 @@
+mauricio,terceros,123,A+,
+mauri,terceros,12,AB-,
+mayra,rosas,1,A-,
+Suzeth,Rosas,34,B+,
+s,a,12,AB+,
+s,a,12,B-,
+s,a,12,AB-,
+gasdf,wafas,532,B+,
+we,as,1212,O+,
+saasas,saasfasd,123131,O-,SS-123131
+timo,terceros,412,AB+,TT-412

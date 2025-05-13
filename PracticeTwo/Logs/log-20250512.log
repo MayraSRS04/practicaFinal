@@ -1,0 +1,553 @@
+2025-05-12 12:46:43.531 -04:00 [INF] Now listening on: http://localhost:5019
+2025-05-12 12:46:43.633 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-12 12:46:43.635 -04:00 [INF] Hosting environment: Development
+2025-05-12 12:46:43.636 -04:00 [INF] Content root path: C:\Users\Juchp\practicaFinal\PracticeTwo
+2025-05-12 12:46:43.954 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger - -
+2025-05-12 12:46:44.146 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger - - - 301 0 - 194.0985ms
+2025-05-12 12:46:44.150 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/index.html - -
+2025-05-12 12:46:44.202 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/index.html - - - 200 - text/html;charset=utf-8 52.1542ms
+2025-05-12 12:46:44.223 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/swagger-ui.css - -
+2025-05-12 12:46:44.251 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/swagger-ui-bundle.js - -
+2025-05-12 12:46:44.255 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/swagger-ui-standalone-preset.js - -
+2025-05-12 12:46:44.257 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - -
+2025-05-12 12:46:44.262 -04:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-05-12 12:46:44.272 -04:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-05-12 12:46:44.270 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - - - 200 16507 application/javascript;+charset=utf-8 12.1404ms
+2025-05-12 12:46:44.283 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/swagger-ui.css - - - 200 143943 text/css 59.7285ms
+2025-05-12 12:46:44.287 -04:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-05-12 12:46:44.288 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/swagger-ui-standalone-preset.js - - - 200 339486 text/javascript 33.0513ms
+2025-05-12 12:46:44.291 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/swagger-ui-bundle.js - - - 200 1096145 text/javascript 40.7572ms
+2025-05-12 12:46:44.501 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_vs/browserLink - -
+2025-05-12 12:46:44.540 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.7673ms
+2025-05-12 12:46:44.592 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/favicon-32x32.png - -
+2025-05-12 12:46:44.593 -04:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-05-12 12:46:44.594 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/favicon-32x32.png - - - 200 628 image/png 2.6653ms
+2025-05-12 12:46:44.713 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - -
+2025-05-12 12:46:44.718 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.6598ms
+2025-05-12 12:46:58.338 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/api-patients - -
+2025-05-12 12:46:58.343 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.GetAll (PracticeTwo)'
+2025-05-12 12:46:58.359 -04:00 [INF] Route matched with {action = "GetAll", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-12 12:46:58.375 -04:00 [INF] Getting all patients
+2025-05-12 12:46:58.379 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.Models.Patient, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-12 12:46:58.385 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.GetAll (PracticeTwo) in 22.5004ms
+2025-05-12 12:46:58.388 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.GetAll (PracticeTwo)'
+2025-05-12 12:46:58.389 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/api-patients - - - 200 - application/json;+charset=utf-8 50.9988ms
+2025-05-12 12:47:20.036 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/api-patients/34/gift - -
+2025-05-12 12:47:20.041 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.GetGift (PracticeTwo)'
+2025-05-12 12:47:20.051 -04:00 [INF] Route matched with {action = "GetGift", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetGift(System.String) on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-12 12:47:20.065 -04:00 [INF] Obteniendo gift para CI=34
+2025-05-12 12:47:20.076 -04:00 [INF] Conectando a https://api.restful-api.dev/objects
+2025-05-12 12:47:20.080 -04:00 [INF] Start processing HTTP request GET https://api.restful-api.dev/objects
+2025-05-12 12:47:20.083 -04:00 [INF] Sending HTTP request GET https://api.restful-api.dev/objects
+2025-05-12 12:47:20.926 -04:00 [INF] Received HTTP response headers after 840.754ms - 200
+2025-05-12 12:47:20.928 -04:00 [INF] End processing HTTP request after 849.5259ms - 200
+2025-05-12 12:47:20.929 -04:00 [INF] Conexión exitosa a https://api.restful-api.dev/objects
+2025-05-12 12:47:20.931 -04:00 [INF] Conexión exitosa a https://api.restful-api.dev/objects
+2025-05-12 12:47:20.931 -04:00 [INF] Recibiendo respuesta de https://api.restful-api.dev/objects
+2025-05-12 12:47:20.932 -04:00 [INF] Respuesta recibida de https://api.restful-api.dev/objects
+2025-05-12 12:47:20.932 -04:00 [INF] Leyendo contenido de la respuesta de https://api.restful-api.dev/objects
+2025-05-12 12:47:20.933 -04:00 [INF] Contenido leído de la respuesta de https://api.restful-api.dev/objects
+2025-05-12 12:47:21.069 -04:00 [INF] Regalo seleccionado ID=1, Name=Google Pixel 6 Pro
+2025-05-12 12:47:21.071 -04:00 [INF] Executing OkObjectResult, writing value of type 'Services.Dtos.GiftDto'.
+2025-05-12 12:47:21.075 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.GetGift (PracticeTwo) in 1022.1142ms
+2025-05-12 12:47:21.076 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.GetGift (PracticeTwo)'
+2025-05-12 12:47:21.077 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/api-patients/34/gift - - - 200 - application/json;+charset=utf-8 1040.7225ms
+2025-05-12 13:28:13.283 -04:00 [INF] Now listening on: http://localhost:5019
+2025-05-12 13:28:13.381 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-12 13:28:13.383 -04:00 [INF] Hosting environment: Development
+2025-05-12 13:28:13.384 -04:00 [INF] Content root path: C:\Users\Juchp\practicaFinal\PracticeTwo
+2025-05-12 13:28:14.829 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/index.html - -
+2025-05-12 13:28:15.020 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/index.html - - - 200 - text/html;charset=utf-8 192.4414ms
+2025-05-12 13:28:15.359 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_vs/browserLink - -
+2025-05-12 13:28:15.361 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - -
+2025-05-12 13:28:15.365 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - - - 200 16507 application/javascript;+charset=utf-8 3.1880ms
+2025-05-12 13:28:15.384 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.7113ms
+2025-05-12 13:28:15.466 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - -
+2025-05-12 13:28:15.472 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.9433ms
+2025-05-12 13:28:51.997 -04:00 [INF] Now listening on: http://localhost:5019
+2025-05-12 13:28:52.112 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-12 13:28:52.114 -04:00 [INF] Hosting environment: Development
+2025-05-12 13:28:52.115 -04:00 [INF] Content root path: C:\Users\Juchp\practicaFinal\PracticeTwo
+2025-05-12 13:28:53.166 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/index.html - -
+2025-05-12 13:28:53.380 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/index.html - - - 200 - text/html;charset=utf-8 221.5978ms
+2025-05-12 13:28:53.730 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - -
+2025-05-12 13:28:53.731 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_vs/browserLink - -
+2025-05-12 13:28:53.733 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - - - 200 16507 application/javascript;+charset=utf-8 3.1305ms
+2025-05-12 13:28:53.755 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.4442ms
+2025-05-12 13:28:53.872 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - -
+2025-05-12 13:28:53.879 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 6.9764ms
+2025-05-12 13:29:57.795 -04:00 [INF] Now listening on: http://localhost:5019
+2025-05-12 13:29:57.900 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-12 13:29:57.901 -04:00 [INF] Hosting environment: Development
+2025-05-12 13:29:57.902 -04:00 [INF] Content root path: C:\Users\Juchp\practicaFinal\PracticeTwo
+2025-05-12 13:29:58.295 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/index.html - -
+2025-05-12 13:29:58.505 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/index.html - - - 200 - text/html;charset=utf-8 212.4187ms
+2025-05-12 13:29:58.803 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_vs/browserLink - -
+2025-05-12 13:29:58.804 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - -
+2025-05-12 13:29:58.807 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - - - 200 16507 application/javascript;+charset=utf-8 3.0053ms
+2025-05-12 13:29:58.829 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.0383ms
+2025-05-12 13:29:58.911 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - -
+2025-05-12 13:29:58.917 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.3618ms
+2025-05-12 13:30:13.424 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/index.html - -
+2025-05-12 13:30:13.431 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/index.html - - - 200 - text/html;charset=utf-8 7.1269ms
+2025-05-12 13:30:13.452 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_vs/browserLink - -
+2025-05-12 13:30:13.454 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - -
+2025-05-12 13:30:13.456 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - - - 200 16507 application/javascript;+charset=utf-8 1.3146ms
+2025-05-12 13:30:13.464 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.5441ms
+2025-05-12 13:30:13.652 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - -
+2025-05-12 13:30:13.657 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.4540ms
+2025-05-12 13:30:14.368 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/index.html - -
+2025-05-12 13:30:14.371 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/index.html - - - 200 - text/html;charset=utf-8 3.8151ms
+2025-05-12 13:30:14.393 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_vs/browserLink - -
+2025-05-12 13:30:14.393 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - -
+2025-05-12 13:30:14.395 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - - - 200 16507 application/javascript;+charset=utf-8 2.1437ms
+2025-05-12 13:30:14.409 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.7705ms
+2025-05-12 13:30:14.593 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - -
+2025-05-12 13:30:14.596 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.1954ms
+2025-05-12 13:31:00.750 -04:00 [INF] Now listening on: http://localhost:5019
+2025-05-12 13:31:00.875 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-12 13:31:00.876 -04:00 [INF] Hosting environment: Development
+2025-05-12 13:31:00.877 -04:00 [INF] Content root path: C:\Users\Juchp\practicaFinal\PracticeTwo
+2025-05-12 13:31:01.584 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/index.html - -
+2025-05-12 13:31:01.768 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/index.html - - - 200 - text/html;charset=utf-8 185.1682ms
+2025-05-12 13:31:01.781 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - -
+2025-05-12 13:31:01.785 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - - - 200 16507 application/javascript;+charset=utf-8 3.9021ms
+2025-05-12 13:31:02.149 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_vs/browserLink - -
+2025-05-12 13:31:02.179 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.4179ms
+2025-05-12 13:31:02.260 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - -
+2025-05-12 13:31:02.266 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.6948ms
+2025-05-12 13:31:30.126 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/index.html - -
+2025-05-12 13:31:30.138 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/index.html - - - 200 - text/html;charset=utf-8 12.0559ms
+2025-05-12 13:31:30.157 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_vs/browserLink - -
+2025-05-12 13:31:30.158 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - -
+2025-05-12 13:31:30.159 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - - - 200 16507 application/javascript;+charset=utf-8 1.7544ms
+2025-05-12 13:31:30.174 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.5679ms
+2025-05-12 13:31:30.335 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - -
+2025-05-12 13:31:30.338 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.0696ms
+2025-05-12 13:31:37.107 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/api-patients - -
+2025-05-12 13:31:37.112 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.GetAll (PracticeTwo)'
+2025-05-12 13:31:37.131 -04:00 [INF] Route matched with {action = "GetAll", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-12 13:31:37.144 -04:00 [INF] Getting all patients
+2025-05-12 13:31:37.150 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.Models.Patient, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-12 13:31:37.157 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.GetAll (PracticeTwo) in 22.0645ms
+2025-05-12 13:31:37.160 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.GetAll (PracticeTwo)'
+2025-05-12 13:31:37.161 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/api-patients - - - 200 - application/json;+charset=utf-8 53.6278ms
+2025-05-12 13:31:46.271 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/api-patients/123 - -
+2025-05-12 13:31:46.272 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.GetByCi (PracticeTwo)'
+2025-05-12 13:31:46.280 -04:00 [INF] Route matched with {action = "GetByCi", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByCi(System.String) on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-12 13:31:46.292 -04:00 [INF] Getting patient 123
+2025-05-12 13:31:46.294 -04:00 [INF] Executing OkObjectResult, writing value of type 'Domain.Models.Patient'.
+2025-05-12 13:31:46.295 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.GetByCi (PracticeTwo) in 13.7908ms
+2025-05-12 13:31:46.296 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.GetByCi (PracticeTwo)'
+2025-05-12 13:31:46.297 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/api-patients/123 - - - 200 - application/json;+charset=utf-8 26.3334ms
+2025-05-12 13:38:31.535 -04:00 [INF] Now listening on: http://localhost:5019
+2025-05-12 13:38:31.666 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-12 13:38:31.667 -04:00 [INF] Hosting environment: Development
+2025-05-12 13:38:31.668 -04:00 [INF] Content root path: C:\Users\Juchp\practicaFinal\PracticeTwo
+2025-05-12 13:38:32.639 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/index.html - -
+2025-05-12 13:38:32.808 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/index.html - - - 200 - text/html;charset=utf-8 171.1074ms
+2025-05-12 13:38:33.106 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_vs/browserLink - -
+2025-05-12 13:38:33.107 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - -
+2025-05-12 13:38:33.111 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - - - 200 16507 application/javascript;+charset=utf-8 3.1444ms
+2025-05-12 13:38:33.135 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.2631ms
+2025-05-12 13:38:33.215 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - -
+2025-05-12 13:38:33.221 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.5961ms
+2025-05-12 13:38:44.439 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5019/api-patients application/json 50
+2025-05-12 13:38:44.447 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 13:38:44.469 -04:00 [INF] Route matched with {action = "Create", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(PracticeTwo.Dtos.PatientDto) on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-12 13:38:44.509 -04:00 [INF] Creating patient 12
+2025-05-12 13:38:44.513 -04:00 [INF] Paciente creado con grupo sanguíneo asignado aleatoriamente: AB+
+2025-05-12 13:38:44.515 -04:00 [INF] Paciente s agregado correctamente y datos persistidos.
+2025-05-12 13:38:44.521 -04:00 [INF] Executing CreatedAtActionResult, writing value of type 'Domain.Models.Patient'.
+2025-05-12 13:38:44.545 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.Create (PracticeTwo) in 71.3821ms
+2025-05-12 13:38:44.549 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 13:38:44.550 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5019/api-patients application/json 50 - 201 - application/json;+charset=utf-8 111.1081ms
+2025-05-12 13:39:14.501 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5019/api-patients application/json 50
+2025-05-12 13:39:14.506 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 13:39:14.507 -04:00 [INF] Route matched with {action = "Create", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(PracticeTwo.Dtos.PatientDto) on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-12 13:39:14.515 -04:00 [INF] Creating patient 12
+2025-05-12 13:39:14.516 -04:00 [INF] Paciente creado con grupo sanguíneo asignado aleatoriamente: B-
+2025-05-12 13:39:14.517 -04:00 [INF] Paciente s agregado correctamente y datos persistidos.
+2025-05-12 13:39:14.519 -04:00 [INF] Executing CreatedAtActionResult, writing value of type 'Domain.Models.Patient'.
+2025-05-12 13:39:14.521 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.Create (PracticeTwo) in 12.5497ms
+2025-05-12 13:39:14.522 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 13:39:14.523 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5019/api-patients application/json 50 - 201 - application/json;+charset=utf-8 21.8544ms
+2025-05-12 13:39:15.440 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5019/api-patients application/json 50
+2025-05-12 13:39:15.442 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 13:39:15.443 -04:00 [INF] Route matched with {action = "Create", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(PracticeTwo.Dtos.PatientDto) on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-12 13:39:15.446 -04:00 [INF] Creating patient 12
+2025-05-12 13:39:15.446 -04:00 [INF] Paciente creado con grupo sanguíneo asignado aleatoriamente: AB-
+2025-05-12 13:39:15.448 -04:00 [INF] Paciente s agregado correctamente y datos persistidos.
+2025-05-12 13:39:15.449 -04:00 [INF] Executing CreatedAtActionResult, writing value of type 'Domain.Models.Patient'.
+2025-05-12 13:39:15.450 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.Create (PracticeTwo) in 5.016ms
+2025-05-12 13:39:15.451 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 13:39:15.452 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5019/api-patients application/json 50 - 201 - application/json;+charset=utf-8 11.5390ms
+2025-05-12 13:40:58.120 -04:00 [INF] Now listening on: http://localhost:5019
+2025-05-12 13:40:58.233 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-12 13:40:58.235 -04:00 [INF] Hosting environment: Development
+2025-05-12 13:40:58.236 -04:00 [INF] Content root path: C:\Users\Juchp\practicaFinal\PracticeTwo
+2025-05-12 13:40:58.972 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/index.html - -
+2025-05-12 13:40:59.220 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/index.html - - - 200 - text/html;charset=utf-8 249.1957ms
+2025-05-12 13:40:59.751 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_vs/browserLink - -
+2025-05-12 13:40:59.752 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - -
+2025-05-12 13:40:59.757 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - - - 200 16507 application/javascript;+charset=utf-8 4.1646ms
+2025-05-12 13:40:59.782 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.9994ms
+2025-05-12 13:40:59.877 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - -
+2025-05-12 13:40:59.882 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.3611ms
+2025-05-12 13:41:24.797 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5019/api-patients application/json 59
+2025-05-12 13:41:24.803 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 13:41:24.830 -04:00 [INF] Route matched with {action = "Create", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(PracticeTwo.Dtos.PatientDto) on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-12 13:41:24.868 -04:00 [INF] Creating patient 532
+2025-05-12 13:41:24.870 -04:00 [INF] Paciente creado con grupo sanguíneo asignado aleatoriamente: B+
+2025-05-12 13:41:24.877 -04:00 [INF] Paciente gasdf agregado correctamente y datos persistidos.
+2025-05-12 13:41:24.884 -04:00 [INF] Executing CreatedAtActionResult, writing value of type 'Domain.Models.Patient'.
+2025-05-12 13:41:24.906 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.Create (PracticeTwo) in 71.8431ms
+2025-05-12 13:41:24.910 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 13:41:24.911 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5019/api-patients application/json 59 - 201 - application/json;+charset=utf-8 113.9125ms
+2025-05-12 13:58:49.145 -04:00 [INF] Now listening on: http://localhost:5019
+2025-05-12 13:58:49.252 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-12 13:58:49.254 -04:00 [INF] Hosting environment: Development
+2025-05-12 13:58:49.254 -04:00 [INF] Content root path: C:\Users\Juchp\practicaFinal\PracticeTwo
+2025-05-12 13:58:50.022 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/index.html - -
+2025-05-12 13:58:50.214 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/index.html - - - 200 - text/html;charset=utf-8 193.5763ms
+2025-05-12 13:58:50.635 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_vs/browserLink - -
+2025-05-12 13:58:50.636 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - -
+2025-05-12 13:58:50.640 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - - - 200 16507 application/javascript;+charset=utf-8 2.9710ms
+2025-05-12 13:58:50.661 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.2144ms
+2025-05-12 13:58:50.743 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - -
+2025-05-12 13:58:50.749 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.8200ms
+2025-05-12 13:59:03.049 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5019/api-patients application/json 54
+2025-05-12 13:59:03.054 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 13:59:03.077 -04:00 [INF] Route matched with {action = "Create", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(PracticeTwo.Dtos.PatientDto) on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-12 13:59:03.117 -04:00 [INF] Creating patient 1212
+2025-05-12 13:59:03.119 -04:00 [INF] Paciente creado con grupo sanguíneo asignado aleatoriamente: O+
+2025-05-12 13:59:03.122 -04:00 [INF] Paciente we agregado correctamente y datos persistidos.
+2025-05-12 13:59:03.128 -04:00 [INF] Executing CreatedAtActionResult, writing value of type 'Domain.Models.Patient'.
+2025-05-12 13:59:03.153 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.Create (PracticeTwo) in 71.7322ms
+2025-05-12 13:59:03.156 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 13:59:03.157 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5019/api-patients application/json 54 - 201 - application/json;+charset=utf-8 107.9285ms
+2025-05-12 14:04:17.691 -04:00 [INF] Now listening on: http://localhost:5019
+2025-05-12 14:04:17.807 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-12 14:04:17.809 -04:00 [INF] Hosting environment: Development
+2025-05-12 14:04:17.809 -04:00 [INF] Content root path: C:\Users\Juchp\practicaFinal\PracticeTwo
+2025-05-12 14:04:18.310 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/index.html - -
+2025-05-12 14:04:18.517 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/index.html - - - 200 - text/html;charset=utf-8 208.4604ms
+2025-05-12 14:04:18.829 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - -
+2025-05-12 14:04:18.831 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_vs/browserLink - -
+2025-05-12 14:04:18.834 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - - - 200 16507 application/javascript;+charset=utf-8 5.2531ms
+2025-05-12 14:04:18.859 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.4614ms
+2025-05-12 14:04:18.941 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - -
+2025-05-12 14:04:18.947 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 6.1771ms
+2025-05-12 14:04:30.834 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5019/api/patients application/json 57
+2025-05-12 14:04:30.840 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 14:04:30.864 -04:00 [INF] Route matched with {action = "Create", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(PracticeTwo.Dtos.PatientDto) on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-12 14:04:30.904 -04:00 [INF] Creating patient 241
+2025-05-12 14:04:30.907 -04:00 [INF] Paciente creado con grupo sanguíneo: O-
+2025-05-12 14:04:30.927 -04:00 [INF] Start processing HTTP request GET http://localhost:5000/api/PatientCode/Generate?*
+2025-05-12 14:04:30.931 -04:00 [INF] Sending HTTP request GET http://localhost:5000/api/PatientCode/Generate?*
+2025-05-12 14:04:30.946 -04:00 [INF] Received HTTP response headers after 11.2963ms - 404
+2025-05-12 14:04:30.951 -04:00 [INF] End processing HTTP request after 27.0588ms - 404
+2025-05-12 14:04:31.037 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.Create (PracticeTwo) in 169.2111ms
+2025-05-12 14:04:31.039 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 14:04:31.043 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Services.External_Services.PatientCodeService.GetPatientCodeAsync(String name, String lastName, String ci) in C:\Users\Juchp\practicaFinal\Services\External Services\IPatientCodeService.cs:line 31
+   at Domain.Manager.PatientManager.CreateAsync(Patient patient) in C:\Users\Juchp\practicaFinal\Domain\Manager\PatientManager.cs:line 55
+   at PracticeTwo.Controllers.PatientsController.Create(PatientDto dto) in C:\Users\Juchp\practicaFinal\PracticeTwo\Controllers\PatientsController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-05-12 14:04:31.092 -04:00 [ERR] Error no controlado
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Services.External_Services.PatientCodeService.GetPatientCodeAsync(String name, String lastName, String ci) in C:\Users\Juchp\practicaFinal\Services\External Services\IPatientCodeService.cs:line 31
+   at Domain.Manager.PatientManager.CreateAsync(Patient patient) in C:\Users\Juchp\practicaFinal\Domain\Manager\PatientManager.cs:line 55
+   at PracticeTwo.Controllers.PatientsController.Create(PatientDto dto) in C:\Users\Juchp\practicaFinal\PracticeTwo\Controllers\PatientsController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-05-12 14:04:31.100 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5019/api/patients application/json 57 - 500 - application/json 265.9187ms
+2025-05-12 14:10:09.173 -04:00 [INF] Now listening on: http://localhost:5019
+2025-05-12 14:10:09.341 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-12 14:10:09.342 -04:00 [INF] Hosting environment: Development
+2025-05-12 14:10:09.343 -04:00 [INF] Content root path: C:\Users\Juchp\practicaFinal\PracticeTwo
+2025-05-12 14:10:09.819 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/index.html - -
+2025-05-12 14:10:10.094 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/index.html - - - 200 - text/html;charset=utf-8 277.7807ms
+2025-05-12 14:10:10.402 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_vs/browserLink - -
+2025-05-12 14:10:10.403 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - -
+2025-05-12 14:10:10.408 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - - - 200 16507 application/javascript;+charset=utf-8 4.4913ms
+2025-05-12 14:10:10.435 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.9133ms
+2025-05-12 14:10:10.518 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - -
+2025-05-12 14:10:10.524 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.9888ms
+2025-05-12 14:11:34.367 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5019/api/patients application/json 59
+2025-05-12 14:11:34.373 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 14:11:34.396 -04:00 [INF] Route matched with {action = "Create", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(PracticeTwo.Dtos.PatientDto) on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-12 14:11:34.437 -04:00 [INF] Creating patient 2412
+2025-05-12 14:11:34.440 -04:00 [INF] Paciente creado con grupo sanguíneo: B-
+2025-05-12 14:11:34.451 -04:00 [INF] Start processing HTTP request GET http://localhost:5000/api/PatientCode/Generate?*
+2025-05-12 14:11:34.455 -04:00 [INF] Sending HTTP request GET http://localhost:5000/api/PatientCode/Generate?*
+2025-05-12 14:11:34.473 -04:00 [INF] Received HTTP response headers after 15.1156ms - 404
+2025-05-12 14:11:34.477 -04:00 [INF] End processing HTTP request after 29.162ms - 404
+2025-05-12 14:11:34.569 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.Create (PracticeTwo) in 168.3512ms
+2025-05-12 14:11:34.571 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 14:11:34.577 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Services.External_Services.PatientCodeService.GetPatientCodeAsync(String name, String lastName, String ci) in C:\Users\Juchp\practicaFinal\Services\External Services\IPatientCodeService.cs:line 31
+   at Domain.Manager.PatientManager.CreateAsync(Patient patient) in C:\Users\Juchp\practicaFinal\Domain\Manager\PatientManager.cs:line 55
+   at PracticeTwo.Controllers.PatientsController.Create(PatientDto dto) in C:\Users\Juchp\practicaFinal\PracticeTwo\Controllers\PatientsController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-05-12 14:11:34.596 -04:00 [ERR] Error no controlado
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Services.External_Services.PatientCodeService.GetPatientCodeAsync(String name, String lastName, String ci) in C:\Users\Juchp\practicaFinal\Services\External Services\IPatientCodeService.cs:line 31
+   at Domain.Manager.PatientManager.CreateAsync(Patient patient) in C:\Users\Juchp\practicaFinal\Domain\Manager\PatientManager.cs:line 55
+   at PracticeTwo.Controllers.PatientsController.Create(PatientDto dto) in C:\Users\Juchp\practicaFinal\PracticeTwo\Controllers\PatientsController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-05-12 14:11:34.605 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5019/api/patients application/json 59 - 500 - application/json 238.3067ms
+2025-05-12 14:16:56.160 -04:00 [INF] Now listening on: http://localhost:5019
+2025-05-12 14:16:56.268 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-12 14:16:56.269 -04:00 [INF] Hosting environment: Development
+2025-05-12 14:16:56.270 -04:00 [INF] Content root path: C:\Users\Juchp\practicaFinal\PracticeTwo
+2025-05-12 14:16:56.920 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/index.html - -
+2025-05-12 14:16:57.142 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/index.html - - - 200 - text/html;charset=utf-8 224.9186ms
+2025-05-12 14:16:57.439 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_vs/browserLink - -
+2025-05-12 14:16:57.440 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - -
+2025-05-12 14:16:57.444 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - - - 200 16507 application/javascript;+charset=utf-8 3.2995ms
+2025-05-12 14:16:57.467 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.9243ms
+2025-05-12 14:16:57.549 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - -
+2025-05-12 14:16:57.558 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 8.7243ms
+2025-05-12 14:17:13.461 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5019/api/patients application/json 58
+2025-05-12 14:17:13.467 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 14:17:13.490 -04:00 [INF] Route matched with {action = "Create", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(PracticeTwo.Dtos.PatientDto) on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-12 14:17:13.530 -04:00 [INF] Creating patient 2321
+2025-05-12 14:17:13.532 -04:00 [INF] Paciente creado con grupo sanguíneo: A+
+2025-05-12 14:17:13.543 -04:00 [INF] Start processing HTTP request GET http://localhost:5000/api/PatientCode/Generate?*
+2025-05-12 14:17:13.546 -04:00 [INF] Sending HTTP request GET http://localhost:5000/api/PatientCode/Generate?*
+2025-05-12 14:17:13.571 -04:00 [INF] Received HTTP response headers after 22.5703ms - 404
+2025-05-12 14:17:13.575 -04:00 [INF] End processing HTTP request after 34.6214ms - 404
+2025-05-12 14:17:13.658 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.Create (PracticeTwo) in 162.4554ms
+2025-05-12 14:17:13.660 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 14:17:13.665 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Services.External_Services.PatientCodeService.GetPatientCodeAsync(String name, String lastName, String ci) in C:\Users\Juchp\practicaFinal\Services\External Services\IPatientCodeService.cs:line 31
+   at Domain.Manager.PatientManager.CreateAsync(Patient patient) in C:\Users\Juchp\practicaFinal\Domain\Manager\PatientManager.cs:line 55
+   at PracticeTwo.Controllers.PatientsController.Create(PatientDto dto) in C:\Users\Juchp\practicaFinal\PracticeTwo\Controllers\PatientsController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-05-12 14:17:13.684 -04:00 [ERR] Error no controlado
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Services.External_Services.PatientCodeService.GetPatientCodeAsync(String name, String lastName, String ci) in C:\Users\Juchp\practicaFinal\Services\External Services\IPatientCodeService.cs:line 31
+   at Domain.Manager.PatientManager.CreateAsync(Patient patient) in C:\Users\Juchp\practicaFinal\Domain\Manager\PatientManager.cs:line 55
+   at PracticeTwo.Controllers.PatientsController.Create(PatientDto dto) in C:\Users\Juchp\practicaFinal\PracticeTwo\Controllers\PatientsController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-05-12 14:17:13.691 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5019/api/patients application/json 58 - 500 - application/json 230.0175ms
+2025-05-12 14:18:40.608 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5019/api/patients application/json 58
+2025-05-12 14:18:40.609 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 14:18:40.611 -04:00 [INF] Route matched with {action = "Create", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(PracticeTwo.Dtos.PatientDto) on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-12 14:18:40.614 -04:00 [INF] Creating patient 2321
+2025-05-12 14:18:40.615 -04:00 [INF] Paciente creado con grupo sanguíneo: O+
+2025-05-12 14:18:40.616 -04:00 [INF] Start processing HTTP request GET http://localhost:5000/api/PatientCode/Generate?*
+2025-05-12 14:18:40.617 -04:00 [INF] Sending HTTP request GET http://localhost:5000/api/PatientCode/Generate?*
+2025-05-12 14:18:40.639 -04:00 [INF] Received HTTP response headers after 20.7215ms - 404
+2025-05-12 14:18:40.640 -04:00 [INF] End processing HTTP request after 24.134ms - 404
+2025-05-12 14:18:40.698 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.Create (PracticeTwo) in 85.5283ms
+2025-05-12 14:18:40.699 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 14:18:40.701 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Services.External_Services.PatientCodeService.GetPatientCodeAsync(String name, String lastName, String ci) in C:\Users\Juchp\practicaFinal\Services\External Services\IPatientCodeService.cs:line 31
+   at Domain.Manager.PatientManager.CreateAsync(Patient patient) in C:\Users\Juchp\practicaFinal\Domain\Manager\PatientManager.cs:line 55
+   at PracticeTwo.Controllers.PatientsController.Create(PatientDto dto) in C:\Users\Juchp\practicaFinal\PracticeTwo\Controllers\PatientsController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-05-12 14:18:40.705 -04:00 [ERR] Error no controlado
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Services.External_Services.PatientCodeService.GetPatientCodeAsync(String name, String lastName, String ci) in C:\Users\Juchp\practicaFinal\Services\External Services\IPatientCodeService.cs:line 31
+   at Domain.Manager.PatientManager.CreateAsync(Patient patient) in C:\Users\Juchp\practicaFinal\Domain\Manager\PatientManager.cs:line 55
+   at PracticeTwo.Controllers.PatientsController.Create(PatientDto dto) in C:\Users\Juchp\practicaFinal\PracticeTwo\Controllers\PatientsController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-05-12 14:18:40.710 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5019/api/patients application/json 58 - 500 - application/json 101.6897ms
+2025-05-12 14:19:00.670 -04:00 [INF] Now listening on: http://localhost:5019
+2025-05-12 14:19:00.788 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-12 14:19:00.791 -04:00 [INF] Hosting environment: Development
+2025-05-12 14:19:00.792 -04:00 [INF] Content root path: C:\Users\Juchp\practicaFinal\PracticeTwo
+2025-05-12 14:19:01.721 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/index.html - -
+2025-05-12 14:19:01.886 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/index.html - - - 200 - text/html;charset=utf-8 167.4176ms
+2025-05-12 14:19:02.256 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - -
+2025-05-12 14:19:02.257 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_vs/browserLink - -
+2025-05-12 14:19:02.261 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - - - 200 16507 application/javascript;+charset=utf-8 5.3551ms
+2025-05-12 14:19:02.296 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.0603ms
+2025-05-12 14:19:02.383 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - -
+2025-05-12 14:19:02.389 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 6.3594ms
+2025-05-12 14:19:19.218 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5019/api/patients application/json 56
+2025-05-12 14:19:19.225 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 14:19:19.250 -04:00 [INF] Route matched with {action = "Create", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(PracticeTwo.Dtos.PatientDto) on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-12 14:19:19.290 -04:00 [INF] Creating patient 2412
+2025-05-12 14:19:19.293 -04:00 [INF] Paciente creado con grupo sanguíneo: AB+
+2025-05-12 14:19:19.304 -04:00 [INF] Start processing HTTP request GET http://localhost:5000/api/PatientCode/Generate?*
+2025-05-12 14:19:19.308 -04:00 [INF] Sending HTTP request GET http://localhost:5000/api/PatientCode/Generate?*
+2025-05-12 14:19:19.328 -04:00 [INF] Received HTTP response headers after 17.3109ms - 404
+2025-05-12 14:19:19.332 -04:00 [INF] End processing HTTP request after 30.9892ms - 404
+2025-05-12 14:19:19.417 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.Create (PracticeTwo) in 162.943ms
+2025-05-12 14:19:19.419 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 14:19:19.423 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Services.External_Services.PatientCodeService.GetPatientCodeAsync(String name, String lastName, String ci) in C:\Users\Juchp\practicaFinal\Services\External Services\IPatientCodeService.cs:line 31
+   at Domain.Manager.PatientManager.CreateAsync(Patient patient) in C:\Users\Juchp\practicaFinal\Domain\Manager\PatientManager.cs:line 55
+   at PracticeTwo.Controllers.PatientsController.Create(PatientDto dto) in C:\Users\Juchp\practicaFinal\PracticeTwo\Controllers\PatientsController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-12 14:19:19.451 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5019/api/patients application/json 56 - 500 - text/plain;+charset=utf-8 233.5233ms
+2025-05-12 14:22:32.564 -04:00 [INF] Now listening on: http://localhost:5019
+2025-05-12 14:22:32.677 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-12 14:22:32.678 -04:00 [INF] Hosting environment: Development
+2025-05-12 14:22:32.679 -04:00 [INF] Content root path: C:\Users\Juchp\practicaFinal\PracticeTwo
+2025-05-12 14:22:32.986 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/index.html - -
+2025-05-12 14:22:33.210 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/index.html - - - 200 - text/html;charset=utf-8 226.8500ms
+2025-05-12 14:22:33.535 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_vs/browserLink - -
+2025-05-12 14:22:33.536 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - -
+2025-05-12 14:22:33.539 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - - - 200 16507 application/javascript;+charset=utf-8 2.7268ms
+2025-05-12 14:22:33.559 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.1901ms
+2025-05-12 14:22:33.641 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - -
+2025-05-12 14:22:33.648 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 7.3529ms
+2025-05-12 14:22:44.972 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5019/api/patients application/json 66
+2025-05-12 14:22:44.978 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 14:22:45.003 -04:00 [INF] Route matched with {action = "Create", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(PracticeTwo.Dtos.PatientDto) on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-12 14:22:45.045 -04:00 [INF] Creating patient 123131
+2025-05-12 14:22:45.047 -04:00 [INF] Paciente creado con grupo sanguíneo: O-
+2025-05-12 14:22:45.060 -04:00 [INF] Start processing HTTP request GET http://localhost:5000/PatientCode/Generate?*
+2025-05-12 14:22:45.064 -04:00 [INF] Sending HTTP request GET http://localhost:5000/PatientCode/Generate?*
+2025-05-12 14:22:45.122 -04:00 [INF] Received HTTP response headers after 54.6746ms - 200
+2025-05-12 14:22:45.126 -04:00 [INF] End processing HTTP request after 69.4748ms - 200
+2025-05-12 14:22:45.130 -04:00 [INF] Patient Code asignado: SS-123131
+2025-05-12 14:22:45.133 -04:00 [INF] Paciente saasas guardado correctamente.
+2025-05-12 14:22:45.139 -04:00 [INF] Executing CreatedAtActionResult, writing value of type 'Domain.Models.Patient'.
+2025-05-12 14:22:45.163 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.Create (PracticeTwo) in 156.0009ms
+2025-05-12 14:22:45.165 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-12 14:22:45.167 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5019/api/patients application/json 66 - 201 - application/json;+charset=utf-8 194.5576ms
+2025-05-12 19:05:32.368 -04:00 [INF] Now listening on: http://localhost:5019
+2025-05-12 19:05:32.497 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-12 19:05:32.499 -04:00 [INF] Hosting environment: Development
+2025-05-12 19:05:32.500 -04:00 [INF] Content root path: C:\Users\Juchp\practicaFinal\PracticeTwo
+2025-05-12 19:05:33.185 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/index.html - -
+2025-05-12 19:05:33.504 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/index.html - - - 200 - text/html;charset=utf-8 322.5314ms
+2025-05-12 19:05:33.865 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_vs/browserLink - -
+2025-05-12 19:05:33.866 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - -
+2025-05-12 19:05:33.871 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - - - 200 16507 application/javascript;+charset=utf-8 3.7821ms
+2025-05-12 19:05:33.930 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 65.7102ms
+2025-05-12 19:05:34.024 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - -
+2025-05-12 19:05:34.032 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 8.3090ms

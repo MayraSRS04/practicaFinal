@@ -1,0 +1,100 @@
+2025-05-04 18:58:59.470 -04:00 [INF] Now listening on: http://localhost:5019
+2025-05-04 18:58:59.554 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 18:58:59.558 -04:00 [INF] Hosting environment: Development
+2025-05-04 18:58:59.563 -04:00 [INF] Content root path: D:\Users\MAYRA\OneDrive\Documentos\ing de sistemas UPB\Certificacion1\PracticeTwo\PracticeTwo
+2025-05-04 18:59:00.430 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/index.html - -
+2025-05-04 18:59:00.895 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/index.html - - - 200 - text/html;charset=utf-8 470.6493ms
+2025-05-04 18:59:00.927 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - -
+2025-05-04 18:59:00.935 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 9.0055ms
+2025-05-04 18:59:00.976 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_vs/browserLink - -
+2025-05-04 18:59:01.005 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.2680ms
+2025-05-04 18:59:02.353 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - -
+2025-05-04 18:59:02.608 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 255.7578ms
+2025-05-04 18:59:28.438 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5019/api/patients application/json 65
+2025-05-04 18:59:28.443 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-04 18:59:28.470 -04:00 [INF] Route matched with {action = "Create", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(PracticeTwo.Dtos.PatientDto) on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-04 18:59:28.511 -04:00 [INF] Creating patient 123
+2025-05-04 18:59:28.528 -04:00 [INF] Executing CreatedAtActionResult, writing value of type 'Domain.Models.Patient'.
+2025-05-04 18:59:28.558 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.Create (PracticeTwo) in 82.3528ms
+2025-05-04 18:59:28.563 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-04 18:59:28.564 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5019/api/patients application/json 65 - 201 - application/json;+charset=utf-8 126.5629ms
+2025-05-04 20:22:28.481 -04:00 [INF] Now listening on: http://localhost:5019
+2025-05-04 20:22:28.548 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 20:22:28.552 -04:00 [INF] Hosting environment: Development
+2025-05-04 20:22:28.554 -04:00 [INF] Content root path: D:\Users\MAYRA\OneDrive\Documentos\ing de sistemas UPB\Certificacion1\PracticeTwo\PracticeTwo
+2025-05-04 20:22:28.992 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/index.html - -
+2025-05-04 20:22:29.332 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/index.html - - - 200 - text/html;charset=utf-8 344.3477ms
+2025-05-04 20:22:29.368 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - -
+2025-05-04 20:22:29.375 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 9.4772ms
+2025-05-04 20:22:29.422 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/_vs/browserLink - -
+2025-05-04 20:22:29.461 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.0627ms
+2025-05-04 20:22:30.857 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - -
+2025-05-04 20:22:31.016 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 158.7421ms
+2025-05-04 20:23:04.052 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5019/api/patients application/json 64
+2025-05-04 20:23:04.071 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-04 20:23:04.133 -04:00 [INF] Route matched with {action = "Create", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(PracticeTwo.Dtos.PatientDto) on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-04 20:23:04.251 -04:00 [INF] Creating patient 12
+2025-05-04 20:23:04.296 -04:00 [INF] Executing CreatedAtActionResult, writing value of type 'Domain.Models.Patient'.
+2025-05-04 20:23:04.347 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.Create (PracticeTwo) in 202.9606ms
+2025-05-04 20:23:04.357 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-04 20:23:04.362 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5019/api/patients application/json 64 - 201 - application/json;+charset=utf-8 309.0840ms
+2025-05-04 20:23:16.416 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/api/patients - -
+2025-05-04 20:23:16.425 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.GetAll (PracticeTwo)'
+2025-05-04 20:23:16.447 -04:00 [INF] Route matched with {action = "GetAll", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-04 20:23:16.458 -04:00 [INF] Getting all patients
+2025-05-04 20:23:16.463 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.Models.Patient, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-04 20:23:16.472 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.GetAll (PracticeTwo) in 16.9795ms
+2025-05-04 20:23:16.478 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.GetAll (PracticeTwo)'
+2025-05-04 20:23:16.483 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/api/patients - - - 200 - application/json;+charset=utf-8 67.1202ms
+2025-05-04 20:23:27.014 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/api/patients/12 - -
+2025-05-04 20:23:27.017 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.GetByCi (PracticeTwo)'
+2025-05-04 20:23:27.026 -04:00 [INF] Route matched with {action = "GetByCi", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByCi(System.String) on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-04 20:23:27.038 -04:00 [INF] Getting patient 12
+2025-05-04 20:23:27.043 -04:00 [INF] Executing OkObjectResult, writing value of type 'Domain.Models.Patient'.
+2025-05-04 20:23:27.048 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.GetByCi (PracticeTwo) in 15.4824ms
+2025-05-04 20:23:27.053 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.GetByCi (PracticeTwo)'
+2025-05-04 20:23:27.056 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/api/patients/12 - - - 200 - application/json;+charset=utf-8 42.9924ms
+2025-05-04 20:24:03.938 -04:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5019/api/patients/12 application/json 47
+2025-05-04 20:24:03.961 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.Update (PracticeTwo)'
+2025-05-04 20:24:03.971 -04:00 [INF] Route matched with {action = "Update", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Update(System.String, PracticeTwo.Dtos.PatientUpdateDto) on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-04 20:24:03.987 -04:00 [INF] Updating patient 12
+2025-05-04 20:24:04.006 -04:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-05-04 20:24:04.012 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.Update (PracticeTwo) in 34.3534ms
+2025-05-04 20:24:04.016 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.Update (PracticeTwo)'
+2025-05-04 20:24:04.020 -04:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5019/api/patients/12 application/json 47 - 204 - - 81.8677ms
+2025-05-04 20:24:13.920 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/api/patients - -
+2025-05-04 20:24:13.934 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.GetAll (PracticeTwo)'
+2025-05-04 20:24:13.937 -04:00 [INF] Route matched with {action = "GetAll", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-04 20:24:13.946 -04:00 [INF] Getting all patients
+2025-05-04 20:24:13.949 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.Models.Patient, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-04 20:24:13.953 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.GetAll (PracticeTwo) in 6.5447ms
+2025-05-04 20:24:13.956 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.GetAll (PracticeTwo)'
+2025-05-04 20:24:13.958 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/api/patients - - - 200 - application/json;+charset=utf-8 38.4529ms
+2025-05-04 20:24:26.537 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/api/patients - -
+2025-05-04 20:24:26.543 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.GetAll (PracticeTwo)'
+2025-05-04 20:24:26.551 -04:00 [INF] Route matched with {action = "GetAll", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-04 20:24:26.569 -04:00 [INF] Getting all patients
+2025-05-04 20:24:26.578 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.Models.Patient, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-04 20:24:26.588 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.GetAll (PracticeTwo) in 18.8762ms
+2025-05-04 20:24:26.594 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.GetAll (PracticeTwo)'
+2025-05-04 20:24:26.599 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/api/patients - - - 200 - application/json;+charset=utf-8 61.7986ms
+2025-05-04 20:24:53.548 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/api/patients/12/gift - -
+2025-05-04 20:24:53.558 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.GetGift (PracticeTwo)'
+2025-05-04 20:24:53.574 -04:00 [INF] Route matched with {action = "GetGift", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetGift(System.String) on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-04 20:24:53.586 -04:00 [INF] Obteniendo gift para CI=12
+2025-05-04 20:24:53.827 -04:00 [INF] Conectando a https://api.restful-api.dev/objects
+2025-05-04 20:24:55.511 -04:00 [INF] Regalo seleccionado ID=7, Name=Apple MacBook Pro 16
+2025-05-04 20:24:55.521 -04:00 [INF] Executing OkObjectResult, writing value of type 'Services.Dtos.GiftDto'.
+2025-05-04 20:24:55.527 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.GetGift (PracticeTwo) in 1945.6958ms
+2025-05-04 20:24:55.533 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.GetGift (PracticeTwo)'
+2025-05-04 20:24:55.538 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/api/patients/12/gift - - - 200 - application/json;+charset=utf-8 1991.5933ms
+2025-05-04 20:25:18.411 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/api/patients/123/gift - -
+2025-05-04 20:25:18.421 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.GetGift (PracticeTwo)'
+2025-05-04 20:25:18.423 -04:00 [INF] Route matched with {action = "GetGift", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetGift(System.String) on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-04 20:25:18.428 -04:00 [INF] Obteniendo gift para CI=123
+2025-05-04 20:25:18.430 -04:00 [INF] Conectando a https://api.restful-api.dev/objects
+2025-05-04 20:25:19.476 -04:00 [INF] Regalo seleccionado ID=10, Name=Apple iPad Mini 5th Gen
+2025-05-04 20:25:19.481 -04:00 [INF] Executing OkObjectResult, writing value of type 'Services.Dtos.GiftDto'.
+2025-05-04 20:25:19.486 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.GetGift (PracticeTwo) in 1059.0285ms
+2025-05-04 20:25:19.491 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.GetGift (PracticeTwo)'
+2025-05-04 20:25:19.495 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/api/patients/123/gift - - - 200 - application/json;+charset=utf-8 1083.6402ms

@@ -1,0 +1,87 @@
+2025-05-11 21:34:09.730 -04:00 [INF] Now listening on: http://localhost:5019
+2025-05-11 21:34:09.778 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-11 21:34:09.778 -04:00 [INF] Hosting environment: Development
+2025-05-11 21:34:09.778 -04:00 [INF] Content root path: /Users/papilo/Desktop/CertiFinal/PracticeTwo/PracticeTwo
+2025-05-11 21:34:09.890 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger - -
+2025-05-11 21:34:09.910 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger - - - 301 0 - 21.1063ms
+2025-05-11 21:34:09.913 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/index.html - -
+2025-05-11 21:34:09.956 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/index.html - - - 200 - text/html;charset=utf-8 42.1954ms
+2025-05-11 21:34:09.970 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/swagger-ui.css - -
+2025-05-11 21:34:09.972 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/swagger-ui-standalone-preset.js - -
+2025-05-11 21:34:09.972 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/swagger-ui-bundle.js - -
+2025-05-11 21:34:10.003 -04:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-05-11 21:34:10.003 -04:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-05-11 21:34:10.007 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/swagger-ui.css - - - 200 143943 text/css 35.9984ms
+2025-05-11 21:34:10.010 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/swagger-ui-standalone-preset.js - - - 200 339486 text/javascript 35.3154ms
+2025-05-11 21:34:10.012 -04:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-05-11 21:34:10.012 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/swagger-ui-bundle.js - - - 200 1096145 text/javascript 40.5012ms
+2025-05-11 21:34:10.096 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - -
+2025-05-11 21:34:10.109 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5019/swagger/favicon-32x32.png - -
+2025-05-11 21:34:10.109 -04:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-05-11 21:34:10.110 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/favicon-32x32.png - - - 200 628 image/png 1.1662ms
+2025-05-11 21:34:10.152 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 56.2350ms
+2025-05-11 21:57:01.683 -04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5019/api-patients application/json 65
+2025-05-11 21:57:01.692 -04:00 [INF] Executing endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-11 21:57:01.714 -04:00 [INF] Route matched with {action = "Create", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(PracticeTwo.Dtos.PatientDto) on controller PracticeTwo.Controllers.PatientsController (PracticeTwo).
+2025-05-11 21:57:01.737 -04:00 [INF] Creating patient string
+2025-05-11 21:57:01.738 -04:00 [INF] Paciente creado con grupo sanguíneo asignado aleatoriamente: O-
+2025-05-11 21:57:01.740 -04:00 [INF] Executed action PracticeTwo.Controllers.PatientsController.Create (PracticeTwo) in 24.7121ms
+2025-05-11 21:57:01.742 -04:00 [INF] Executed endpoint 'PracticeTwo.Controllers.PatientsController.Create (PracticeTwo)'
+2025-05-11 21:57:01.743 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.IO.File.Validate(String path, Encoding encoding)
+   at System.IO.File.WriteAllLines(String path, IEnumerable`1 contents, Encoding encoding)
+   at Domain.Manager.PatientManager.Persist() in /Users/papilo/Desktop/CertiFinal/PracticeTwo/Domain/Manager/PatientManager.cs:line 86
+   at Domain.Manager.PatientManager.Create(Patient patient) in /Users/papilo/Desktop/CertiFinal/PracticeTwo/Domain/Manager/PatientManager.cs:line 51
+   at PracticeTwo.Controllers.PatientsController.Create(PatientDto dto) in /Users/papilo/Desktop/CertiFinal/PracticeTwo/PracticeTwo/Controllers/PatientsController.cs:line 38
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-05-11 21:57:03.807 -04:00 [ERR] Error no controlado
+System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.IO.File.Validate(String path, Encoding encoding)
+   at System.IO.File.WriteAllLines(String path, IEnumerable`1 contents, Encoding encoding)
+   at Domain.Manager.PatientManager.Persist() in /Users/papilo/Desktop/CertiFinal/PracticeTwo/Domain/Manager/PatientManager.cs:line 86
+   at Domain.Manager.PatientManager.Create(Patient patient) in /Users/papilo/Desktop/CertiFinal/PracticeTwo/Domain/Manager/PatientManager.cs:line 51
+   at PracticeTwo.Controllers.PatientsController.Create(PatientDto dto) in /Users/papilo/Desktop/CertiFinal/PracticeTwo/PracticeTwo/Controllers/PatientsController.cs:line 38
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-05-11 21:57:03.821 -04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5019/api-patients application/json 65 - 500 - application/json 2138.5947ms
+2025-05-11 21:57:40.189 -04:00 [INF] Application is shutting down...
